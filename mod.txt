@@ -1,0 +1,17 @@
+{
+	"name": "Refresh Rate Option",
+	"description": "",
+	"author": "James",
+	"version": "1",
+	"hooks": [
+		{"hook_id": "lib/managers/menumanager",	"script_path": "menumanager.lua"}
+	],
+	"updates" : [
+		{
+			"identifier" : "main",
+			"host": {
+				"meta": "https://raw.githubusercontent.com/Jamemes/Refresh-Rate-Option/meta/meta.json"
+			}
+		}
+	]
+}
